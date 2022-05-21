@@ -33,7 +33,6 @@ public class Person {
 	
 	private String type;
 	
-	//@JsonIgnore
 	@JsonProperty(access = Access.WRITE_ONLY)
 	private String customerId;
 	
